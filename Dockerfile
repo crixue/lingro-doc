@@ -11,6 +11,8 @@ RUN npm ci --only=production --registry=https://registry.npmmirror.com && npm ca
 # 复制构建产物
 COPY . .
 
+RUN npm run build
+
 # 暴露端口
 EXPOSE 3000
 
