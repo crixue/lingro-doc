@@ -19,8 +19,8 @@ export default defineConfig({
   //     },
   //   ],
   // },
-  // multiVersion: {
-  //   default: 'v1',
-  //   versions: ['v1'],
-  // },
+  multiVersion: {
+    default: 'v1',
+    versions: ['v1'],
+  },
 });
