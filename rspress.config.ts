@@ -1,5 +1,7 @@
 import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
+import sitemap from "rspress-plugin-sitemap";
+
 
 export default defineConfig({
   base: '/lingro-doc/',
@@ -45,4 +47,11 @@ export default defineConfig({
     default: 'v1',
     versions: ['v1'],
   },
+  plugins: [
+    sitemap({
+      domain: "https://www.i-lingro.com",
+      defaultChangeFreq: "daily",
+      defaultPriority: "0.7",
+    }),
+  ],
 });
