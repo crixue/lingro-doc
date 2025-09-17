@@ -1,5 +1,7 @@
 [
   "workspace-mode",
   "prompt",
+  "knwoledge-base",
+  "mcp",
   "models"
 ]
