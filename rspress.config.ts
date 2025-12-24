@@ -16,7 +16,7 @@ export default defineConfig({
     ['meta', { charset: 'utf-8' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['meta', { name: 'description', content: '灵格若科技，您的一站式解决方案：MCP工具 · 知识库管理 · 多源数据整合 · 多模型智能切换 · 实时更新 · 深度检索 · 团队协作' }],
-    ['meta', { name: 'keywords', content: 'AI知识管理,企业知识库,个人知识库,RAG,MCP,MCP工具,大语言模型,多模型切换,知识库驱动AI,网络引擎搜索AI,智能问答,文档检索,团队协作,效率工具,灵格若科技,Chatgpt,gpt-5,gpt-4o,gpt-3,Anthropic,Claude Sonnet 4.5,Qwen,Deepseek,Gemini,ChatGLM' }],
+    ['meta', { name: 'keywords', content: 'AI知识管理,企业知识库,个人知识库,RAG,MCP,MCP工具,大语言模型,多模型切换,知识库驱动AI,网络引擎搜索AI,智能问答,文档检索,团队协作,效率工具,灵格若科技,Chatgpt,gpt-5.2,gpt 5,Anthropic,Claude Sonnet 4.5,Qwen,Deepseek,Gemini,Gemini 3 pro,ChatGLM' }],
     ['meta', { property: 'og:title', content: '灵格若 | Lingro' }],
     ['meta', { property: 'og:description', content: '灵格若科技，您的一站式解决方案：MCP工具 · 知识库管理 · 多源数据整合 · 多模型智能切换 · 实时更新 · 深度检索 · 团队协作' }],
     ['meta', { property: 'og:type', content: 'website' }],

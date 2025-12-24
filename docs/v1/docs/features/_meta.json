@@ -3,5 +3,6 @@
   "prompt",
   "knwoledge-base",
   "mcp",
-  "models"
+  "models",
+  "chrome-web-extension"
 ]
