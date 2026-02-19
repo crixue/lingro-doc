@@ -16,7 +16,7 @@ export default defineConfig({
     ['meta', { charset: 'utf-8' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
     ['meta', { name: 'description', content: '灵格若科技，您的一站式解决方案：MCP工具 · 知识库管理 · 多源数据整合 · 多模型智能切换 · 实时更新 · 深度检索 · 团队协作' }],
-    ['meta', { name: 'keywords', content: 'AI知识管理,企业知识库,个人知识库,RAG,MCP,MCP工具,大语言模型,多模型切换,知识库驱动AI,网络引擎搜索AI,智能问答,文档检索,团队协作,效率工具,灵格若科技,Chatgpt,gpt-5.2,gpt 5,Anthropic,Claude Sonnet 4.5,Qwen,Deepseek,Gemini,Gemini 3 pro,ChatGLM' }],
+    ['meta', { name: 'keywords', content: 'AI助手,AI智能助手,AI写作助手,Ai翻译助手,AI知识管理,企业知识库,个人知识库,RAG,MCP,MCP工具,大语言模型,多模型切换,知识库驱动AI,网络引擎搜索AI,智能问答,文档检索,团队协作,效率工具,灵格若科技,Chatgpt,gpt-5.2,gpt 5,Anthropic,Claude Sonnet 4.5,Qwen,Deepseek,Gemini,Gemini 3 pro,ChatGLM' }],
     ['meta', { property: 'og:title', content: '灵格若 | Lingro' }],
     ['meta', { property: 'og:description', content: '灵格若科技，您的一站式解决方案：MCP工具 · 知识库管理 · 多源数据整合 · 多模型智能切换 · 实时更新 · 深度检索 · 团队协作' }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -30,9 +30,9 @@ export default defineConfig({
     ['meta', { name: 'twitter:image', content: 'https://www.i-lingro.com/og-image.jpg' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'author', content: '灵格若科技' }],
-    ['link', { rel: 'canonical', href: 'https://www.i-lingro.com' }],
+    ['link', { rel: 'canonical', href: 'https://chat.i-lingro.com' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'alternate', type: 'application/json+oembed', href: 'https://chat.i-lingro.com', title: '灵格若AI助手' }],
+    ['link', { rel: 'alternate', type: 'application/json+oembed', href: 'https://chat.i-lingro.com', title: '灵格若 AI助手 - 立即聊天' }],
   ],
   // themeConfig: {
   //   socialLinks: [

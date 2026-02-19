@@ -8,10 +8,11 @@
     "preview": "rspress preview --port 4711"
   },
   "dependencies": {
-    "rspress": "^1.40.2",
+    "@rspress/core": "^1.46.1",
+    "rspress": "^1.46.2",
     "rspress-plugin-sitemap": "^1.2.1"
   },
   "devDependencies": {
-    "@types/node": "^18.11.17"
+    "@types/node": "^24.1.0"
   }
 }

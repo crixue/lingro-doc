@@ -1,13 +1,27 @@
-import { normalizeImagePath } from 'rspress/runtime';
+import { normalizeImagePath, Helmet } from '@rspress/core/runtime';
+
+<Helmet>
+  <title>灵格若网页插件 - Chrome浏览器扩展 | AI知识库管理工具 | 灵格若</title>
+  <meta name="description" content="灵格若网页插件是一款强大的Chrome浏览器扩展，支持网页内容智能提取、知识库管理、AI聊天集成。一键保存网页到知识库，提升工作效率。支持Markdown格式、批量收集、快捷键操作。" />
+  <meta name="keywords" content="Chrome浏览器扩展,网页插件,知识库管理工具,AI知识库,网页内容提取,Markdown转换,浏览器插件,知识库搭建,AI助手插件,灵格若插件,Lingro扩展,智能知识库,企业知识库,个人知识库" />
+  <meta property="og:title" content="灵格若网页插件 - Chrome浏览器扩展 | AI知识库管理工具" />
+  <meta property="og:description" content="一键保存网页内容到AI知识库，智能提取、批量收集、实时同步。支持整页抓取和精准选区，提升您的知识管理效率。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://docs.i-lingro.com/lingro-doc/docs/features/chrome-web-extension.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="灵格若网页插件 - Chrome浏览器扩展 | AI知识库管理工具" />
+  <meta name="twitter:description" content="一键保存网页内容到AI知识库，智能提取、批量收集、实时同步。" />
+  <link rel="canonical" href="https://docs.i-lingro.com/lingro-doc/docs/features/chrome-web-extension.html" />
+</Helmet>
 
 # 灵格若网页插件
-🚀 一款强大的浏览器扩展，帮助您轻松收集网页内容，快速构建专属知识库
+一款强大的浏览器扩展，帮助您轻松收集网页内容，快速构建专属知识库
 
 灵格若网页助手专为 [灵格若(Lingro) 平台](https://chat.i-lingro.com) 设计，让您能够轻松收集网页内容，快速构建专属知识库，或直接将内容发送到 AI 聊天会话中。无论您是企业用户还是个人用户，都能通过这款插件显著提升工作效率，让 AI 真正理解并服务于您的业务需求。
 
-## 🎯 核心功能
+## 核心功能
 
-### 1️⃣ 智能网页内容提取
+### 1. 智能网页内容提取
 
 | 功能 | 说明 |
 |------|------|
@@ -16,28 +30,28 @@ import { normalizeImagePath } from 'rspress/runtime';
 | **精准选区** | 支持选中页面特定内容进行提取，灵活满足不同场景需求 |
 | **元数据保留** | 自动捕获页面标题、URL、最后修改时间、语言、网站图标等关键信息 |
 
-### 2️⃣ 双模式发送
+### 2. 双模式发送
 
-#### 📚 知识库模式
+#### 知识库模式
 
-- ✅ 批量收集多个网页内容
-- ✅ 一键发送到指定知识库
-- ✅ 支持全选/取消全选操作
-- ✅ 自动同步到灵格若知识库系统
+- 批量收集多个网页内容
+- 一键发送到指定知识库
+- 支持全选/取消全选操作
+- 自动同步到灵格若知识库系统
 
-#### 💬 聊天会话模式
+#### 聊天会话模式
 
-- ✅ 实时发送网页内容到当前聊天会话
-- ✅ 单选模式，精准传递
-- ✅ 自动检测活跃聊天窗口
-- ✅ 无缝集成到对话流程
+- 实时发送网页内容到当前聊天会话
+- 单选模式，精准传递
+- 自动检测活跃聊天窗口
+- 无缝集成到对话流程
 
-### 3️⃣ 便捷操作方式
+### 3. 便捷操作方式
 
-#### 🖱️ 右键菜单
+#### 右键菜单
 在任意网页右键即可快速保存内容
 
-#### ⌨️ 快捷键支持
+#### 快捷键支持
 
 | 快捷键 | 功能 | 模式 |
 |--------|------|------|
@@ -45,19 +59,19 @@ import { normalizeImagePath } from 'rspress/runtime';
 | `Ctrl+Shift+S` / `⌘+Shift+S` | 获取整个页面 | 知识库模式 |
 | `Ctrl+Shift+Z` / `⌘+Shift+Z` | 获取选中内容 | 通用 |
 
-#### 📋 可视化管理
+#### 可视化管理
 弹窗界面查看、管理所有已保存内容
 
-### 4️⃣ 灵活配置
+### 4. 灵活配置
 
-- 🔧 自定义知识库详情页链接
-- 🎯 智能识别聊天会话页面
-- 📄 支持多种页面格式
+- 自定义知识库详情页链接
+- 智能识别聊天会话页面
+- 支持多种页面格式
 
 ---
-## 💡 为什么要安装灵格若网页助手？
+## 为什么要安装灵格若网页助手？
 
-### 🚀 提升工作效率
+### 提升工作效率
 
 <table>
 <tr>
@@ -80,13 +94,13 @@ import { normalizeImagePath } from 'rspress/runtime';
 
     ✅ 支持一次性发送多条内容到知识库
 
-**节省 80% 的操作时间** ⚡
+**节省 80% 的操作时间**
 
 </td>
 </tr>
 </table>
 
-### 🔒 安全可靠
+### 安全可靠
 
 - ✅ 本地存储机制，数据不经过第三方服务器
 - ✅ 域名白名单保护，仅与授权网站通信
@@ -94,7 +108,7 @@ import { normalizeImagePath } from 'rspress/runtime';
 
 ---
 
-## 🔧 安装插件
+## 安装插件
 
 下面以Chrome浏览器为例，介绍如何安装灵格若网页助手插件。
 
@@ -104,7 +118,7 @@ import { normalizeImagePath } from 'rspress/runtime';
    
    点击访问：[灵格若网页插件 - Chrome 网上应用店](https://chromewebstore.google.com/detail/%E7%81%B5%E6%A0%BC%E8%8B%A5%E7%BD%91%E9%A1%B5%E6%8F%92%E4%BB%B6/fpblgagnbocegdigifgbianicnapiikh)
    
-   > 🔍 或在 Chrome 网上应用店搜索 "灵格若"
+   > 或在 Chrome 网上应用店搜索 "灵格若"
 
 2. **点击"添加至 Chrome"按钮**
    
@@ -141,13 +155,13 @@ import { normalizeImagePath } from 'rspress/runtime';
 <img src="https://img.cdn1.vip/i/69493656188ad_1766405718.webp" alt="如何安装插件" title="动图-如何安装插件"/>
 
 ---
-## 📦 开始使用
+## 开始使用
 
 成功安装灵格若网页插件，开启智能知识管理之旅！
 
-> 💡 **提示**：首次使用时，请确保已登录 [灵格若平台](https://chat.i-lingro.com)。
+> 提示：首次使用时，请确保已登录 [灵格若平台](https://chat.i-lingro.com)。
 
-###  聊天会话模式
+### 聊天会话模式
 
 #### 步骤 1：创建新的聊天会话
 
@@ -170,7 +184,7 @@ import { normalizeImagePath } from 'rspress/runtime';
 
 <img src={normalizeImagePath('/chat-use-extension-content.png')} />
 
-###  知识库模式
+### 知识库模式
 
 #### 步骤 1：打开一个知识库详情页面
 
@@ -197,3 +211,16 @@ import { normalizeImagePath } from 'rspress/runtime';
 #### 步骤 4：构建知识库索引
 
 内容发送成功后，回到灵格若平台的知识库详情页面，您就可以看到已上传了获取的网页内容。接下来，您可以点击"立即构建索引"按钮，系统会自动处理并生成知识库索引，完成后即可在聊天中使用该知识库进行检索和问答。
+
+---
+
+# 立即体验
+
+安装灵格若Chrome扩展后，可以在任何网页上快速调用AI助手，实现网页内容总结、翻译、问答等功能。
+
+**浏览器AI助手能力：**
+- 一键发送网页内容到AI对话
+- 选中文本即时分析和翻译
+- 侧边栏快速访问AI助手
+
+👉 [打开AI助手在线版](https://chat.i-lingro.com) | 配合扩展使用更高效
