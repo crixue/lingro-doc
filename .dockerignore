@@ -4,6 +4,7 @@ node_modules
 .github
 .git
 .gitignore
+keywords_set
 README.md
 Dockerfile
 .dockerignore

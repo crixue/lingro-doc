@@ -1,5 +1,5 @@
 # docker build -t art.local:8081/docker-local/lingro-docs:latest .
-FROM node:24.13.1-alpine3.22 AS production
+FROM art.local:8081/docker-release/node:24.13.1-alpine3.22 AS production
 
 # 设置工作目录
 WORKDIR /app
