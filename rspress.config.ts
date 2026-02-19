@@ -49,9 +49,9 @@ export default defineConfig({
   },
   plugins: [
     sitemap({
-      domain: "https://www.i-lingro.com",
+      domain: "https://docs.i-lingro.com",
       defaultChangeFreq: "daily",
-      defaultPriority: "0.7",
+      defaultPriority: "1.0",
     }),
   ],
 });
