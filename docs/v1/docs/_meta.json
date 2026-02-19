@@ -8,5 +8,10 @@
     "type": "dir",
     "name": "features",
     "label": "功能特性"
+  },
+  {
+    "type": "dir",
+    "name": "practical-techs",
+    "label": "实用技巧"
   }
 ]
