@@ -50,7 +50,7 @@ export default defineConfig({
   plugins: [
     sitemap({
       domain: "https://docs.i-lingro.com",
-      defaultChangeFreq: "daily",
+      defaultChangeFreq: "hourly",
       defaultPriority: "1.0",
     }),
   ],
