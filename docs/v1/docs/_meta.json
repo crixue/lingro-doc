@@ -13,5 +13,10 @@
     "type": "dir",
     "name": "practical-techs",
     "label": "实用技巧"
+  },
+  {
+    "type": "file",
+    "name": "contact-us.mdx",
+    "label": "联系我们"
   }
 ]
