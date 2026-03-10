@@ -15,6 +15,11 @@
     "label": "实用技巧"
   },
   {
+    "type": "dir",
+    "name": "openclaw-collections",
+    "label": "openclaw集合"
+  },
+  {
     "type": "file",
     "name": "contact-us.mdx",
     "label": "联系我们"
